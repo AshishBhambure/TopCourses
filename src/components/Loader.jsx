@@ -1,13 +1,11 @@
-import React from 'react'
-import  './Loader.css'
+import React from 'react';
+
 function Loader() {
   return (
-    <div class="spinner"
-    // className=' w-[100vw] h-[100vh]'
-    //  className=' w-[100px] h-[100px] '
-    ></div>
-
-  )
+    <div className="flex items-center justify-center h-screen">
+      <div className="spinner"></div>
+    </div>
+  );
 }
 
-export default Loader
+export default Loader;
